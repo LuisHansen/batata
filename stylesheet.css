@@ -1,13 +1,13 @@
 img#bg {
     margin: auto;
     width: 1500px;
-    position: fixed;
+    position: absolute;
     z-index: 0;
 }
 
 img#plate {
     z-index: 1;
-    position: fixed;
+    position: absolute;
     top: 520px;
     width: 700px;
     height: 309px;
@@ -15,7 +15,7 @@ img#plate {
 }
 
 #potatoDiv {
-    position: fixed;
+    position: absolute;
     z-index: 3;
     top: 445px;
     left: 720px;
@@ -38,7 +38,7 @@ div#shadow {
     width: 200;
     height: 46px;
     background-color:  black;
-    position: fixed;
+    position: absolute;
     top: 680px;
     left: 761px;
     z-index: 2;

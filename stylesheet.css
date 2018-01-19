@@ -1,0 +1,66 @@
+img#bg {
+    margin: auto;
+    width: 1500px;
+    position: fixed;
+    z-index: 0;
+}
+
+img#plate {
+    z-index: 1;
+    position: fixed;
+    top: 520px;
+    width: 700px;
+    height: 309px;
+    left: 513px;
+}
+
+#potatoDiv {
+    position: fixed;
+    z-index: 3;
+    top: 445px;
+    left: 720px;
+    animation-duration: 5s;
+    animation-name: potatoUpDown;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+div#potatoDiv {}
+
+img#potato {
+    width: 280px;
+}
+
+img#shadow {
+    width: 280px;
+    position: relative;
+    top: -189px;
+}
+
+div#shadow {
+    width: 200;
+    height: 46px;
+    background-color:  black;
+    position: fixed;
+    top: 680px;
+    left: 761px;
+    z-index: 2;
+    border-radius: 100%;
+    filter: blur(11px) opacity(41%);
+    animation-duration: 5s;
+    animation-name: potatoShadow;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+@keyframes potatoUpDown {
+    0% {top: 425px}
+    50% {top: 465px}
+    100% {top: 425px}
+}
+
+@keyframes potatoShadow {
+    0% {filter: blur(18px) opacity(38%); width: 150px; left: 786px}
+    50% {filter: blur(10px) opacity(45%); width: 200px; left: 761px}
+    100% {filter: blur(18px) opacity(38%); width: 150px; left: 786px}
+}

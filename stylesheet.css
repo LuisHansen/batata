@@ -19,13 +19,13 @@ img#plate {
     z-index: 3;
     top: 445px;
     left: 720px;
-    animation: potatoUpDown 5s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite, potatoRotate 8s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+    animation: potatoUpDown 10s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite, potatoRotate 8s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
 
 div#potatoDiv {}
 
 img#potato {
-    width: 280px;
+    width: 500px;
 }
 
 img#shadow {
@@ -37,14 +37,14 @@ img#shadow {
 div#shadow {
     width: 200;
     height: 46px;
-    background-color:  black;
+    background-color:  blue;
     position: absolute;
     top: 680px;
     left: 761px;
     z-index: 2;
     border-radius: 100%;
     filter: blur(11px) opacity(41%);
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-name: potatoShadow;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.45, 0.05, 0.55, 0.95);
